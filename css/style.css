@@ -33,7 +33,7 @@ h1 {
 }
 
 h2 {
-  font-weight: semi-bold;
+  font-weight: 600;
   font-size: 30px;
   color: #7f8c8d;
   line-height: 50px;
@@ -41,7 +41,8 @@ h2 {
 }
 
 h3 {
-  font-style: italic;
+  /*font-style: italic;*/
+  font-weight: 400;
   font-size: 20px;
   color: #000;
   line-height: 22px;
@@ -162,6 +163,12 @@ ul {
   padding: 10px;
   width: 200px;
   display: none;
+}
+
+.online-classes {
+  padding-top: 40px;
+  padding-bottom: 5px;
+  text-decoration: underline;
 }
 
 img {
